@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ruletaModelStoreContainer" CdmEntityContainer="ruletaEntities">
+    <EntitySetMapping Name="user">
+      <EntityTypeMapping TypeName="ruletaModel.user">
+        <MappingFragment StoreEntitySet="user">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="amount" ColumnName="amount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
